@@ -1,0 +1,8 @@
+
+.error_boundry {
+    padding: 100px 50px;
+
+    @media screen and (max-width: 560px) {
+        padding: 50px 20px;
+    }
+}

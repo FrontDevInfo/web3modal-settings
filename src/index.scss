@@ -1,0 +1,47 @@
+html {
+  min-height: 100%;
+  font-size: 18px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+ 
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page_container {
+  padding: 100px;
+}
+ 
+.btn {
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #0D0D0D;
+  border: 0;
+  background: #93B3BF;
+  border-radius: 10px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.sign_btn {
+  margin-left: 20px;
+}
+
+.info {
+  margin-top: 20px;
+}
+
+.text {
+  margin-top: 5px;
+}
